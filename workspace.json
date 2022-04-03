@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "projects": {
+    "api": "apps/api",
+    "api-interfaces": "libs/api-interfaces",
+    "thebeginning": "apps/thebeginning",
+    "thebeginning-e2e": "apps/thebeginning-e2e"
+  }
+}
