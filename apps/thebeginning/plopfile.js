@@ -32,11 +32,6 @@ module.exports = (plop) => {
       },
       {
         type: "add",
-        path: "src/components/{{type}}/{{name}}/{{name}}.scss",
-        templateFile: "__plop-templates__/components/styleSheetsTemplate.scss.hbs",
-      },
-      {
-        type: "add",
         path: "src/components/{{type}}/{{name}}/{{name}}Types.ts",
         templateFile: "__plop-templates__/components/typesTemplate.ts.hbs",
       },

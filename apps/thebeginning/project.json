@@ -71,16 +71,16 @@
     },
     "plop": {
       "executor": "@nrwl/workspace:run-script",
+      "outputs": [
+        "src/components/atoms",
+        "src/components/molecules",
+        "src/components/organisms",
+        "__tests__/unit/components/atoms",
+        "__tests__/unit/components/molecules",
+        "__tests__/unit/components/organisms"
+      ],
       "options": {
-          "script": "plop",
-          "outputs": [
-              "src/components/atoms",
-              "src/components/molecules",
-              "src/components/organisms",
-              "__tests__/unit/components/atoms",
-              "__tests__/unit/components/molecules",
-              "__tests__/unit/components/organisms"
-          ]
+          "script": "plop"
       }
     }
   },
