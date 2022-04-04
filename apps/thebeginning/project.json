@@ -68,6 +68,20 @@
         "jestConfig": "apps/thebeginning/jest.config.js",
         "passWithNoTests": true
       }
+    },
+    "plop": {
+      "executor": "@nrwl/workspace:run-script",
+      "options": {
+          "script": "plop",
+          "outputs": [
+              "src/components/atoms",
+              "src/components/molecules",
+              "src/components/organisms",
+              "__tests__/unit/components/atoms",
+              "__tests__/unit/components/molecules",
+              "__tests__/unit/components/organisms"
+          ]
+      }
     }
   },
   "tags": []
